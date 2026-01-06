@@ -90,3 +90,17 @@ nav .menu{
     max-width: 585px;
     vertical-align: middle;
 }
+#about{
+    padding-top: 65px;
+    
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;     
+}
+.about-content{
+    padding: 131px 156px;
+}
