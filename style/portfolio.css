@@ -20,6 +20,11 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+.section-heading{
+    max-width: 827px;
+    margin: 0 auto;
+    text-align: center;
+}
 header{
     padding-top: 51px;
     background-color: #FFF8F3;
@@ -56,6 +61,8 @@ nav .menu{
     justify-content: space-between;
     margin: 46px 38px 0 230px;
     align-items: center;
+    width: 71%;
+    max-width: 1332px;
 }
 #banar .banar-content h2{
     font-size: 45px;
@@ -91,16 +98,85 @@ nav .menu{
     vertical-align: middle;
 }
 #about{
-    padding-top: 65px;
+    padding-top: 130px;
     
 }
 #about .about-container{
     width: 71%;
-    max-width: 1240px;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
-    background-color: #FFF8F3;     
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+    /* border: 1px solid red;      */
 }
-.about-content{
-    padding: 131px 156px;
+.about-container h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.about-container p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+.about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-container .info-card{
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: #474747;
+}
+#skills{
+    padding-top: 130px;
+}
+#skills .skills-contanir{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.skills-contanir .section-heading h2{
+    font-size: 35px;
+    font-size: 700;
+    color: #181818;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.skills-contanir .section-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.skills-contanir .skills-box{
+    display: flex;
+    gap: 24px;
+}
+.skills-contanir .skills-box .skills-card{
+    padding: 30px;
+    /* border: 1px solid red; */
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000060
+}
+
+.skills-contanir .skills-box .skills-card h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+.skills-contanir .skills-box .skills-card img{
+    margin-bottom: 30px;
+    width: 44px;
+    height: 44px;
+}
+.skills-contanir .skills-box .skills-card p{
+    line-height: 28px;
+    color: #757575;
 }
