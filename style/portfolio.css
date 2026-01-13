@@ -107,7 +107,7 @@ nav .menu{
     vertical-align: middle;
 }
 #about{
-    padding-top: 130px;
+    margin-top: 130px;
     
 }
 #about .about-container{
@@ -142,7 +142,7 @@ nav .menu{
     color: #474747;
 }
 #skills{
-    padding-top: 130px;
+    margin-top: 130px;
 }
 #skills .skills-contanir{
     width: 71%;
@@ -285,4 +285,78 @@ button-submit{
     width: 461px;
     margin-bottom: 24px;
     border: 5px;
+}
+@media screen and (max-width: 576px){
+    nav{
+        flex-direction: column; 
+        width: 100%;
+    }
+    .logo{
+        text-align: center;
+    }
+    nav .menu{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;   
+    }
+    #banar{
+        flex-direction: column;
+        margin: 50px auto;
+        text-align: center;
+    }
+    #banar .banar-content h2{
+        font-size: 35px;
+    }
+    #banar .banar-content h1{
+        font-size: 60px;
+    }
+    .btn{
+        padding: 12px 20px;
+        margin: 0 auto;
+    }
+    #about{
+        margin-top: 40px;
+    }
+    #about .about-container{
+        padding: 40px;
+        width: 100%;
+    }
+    .about-container .about-info{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .about-container P{
+        padding-bottom: 10px;
+    }
+    #skills .skills-contanir{
+        width: 100%;
+        padding: 30px 40px;
+    }
+    .skills-contanir .skills-box{
+        flex-direction: column;
+    }
+    .skills-contanir .skills-box .skills-card{
+        margin: 0 auto;
+    }
+    #resume{
+        text-align: center;
+        
+    }
+    .resume-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    #resume .resume-container .resume-card{
+        margin: 0 auto;
+    }
+    .footer-container{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 50px;
+    }
+    .icon{
+        margin: 0 auto;
+    }
 }
